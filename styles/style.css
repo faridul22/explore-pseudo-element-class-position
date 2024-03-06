@@ -1,5 +1,5 @@
 .swim_container {
-    /* position: relative; */
+    position: relative;
     border: 3px solid red;
 }
 
@@ -8,21 +8,27 @@
     width: 180px;
 }
 
+/* relative position */
 /* .ring {
     position: relative;
     left: 10px;
     top: 90px;
 } */
+
+/* absolute position */
 /* .ring {
     position: absolute;
     top: 100px;
     left: 100px;
 } */
+
+/* sticky position */
 /* .ring {
     position: sticky;
     top: 0;
 } */
 
+/* fixed position */
 .ring {
     position: fixed;
     top: 300px;
