@@ -1,5 +1,6 @@
 .swim_container {
-    position: relative;
+    /* position: relative; */
+    border: 3px solid red;
 }
 
 .box {
@@ -12,8 +13,22 @@
     left: 10px;
     top: 90px;
 } */
-.ring {
+/* .ring {
     position: absolute;
     top: 100px;
     left: 100px;
+} */
+.ring {
+    position: sticky;
+    top: 0;
+}
+
+.another {
+    border: 3px solid green;
+}
+
+.dummy {
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 200px;
 }
