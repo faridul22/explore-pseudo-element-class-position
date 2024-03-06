@@ -18,9 +18,15 @@
     top: 100px;
     left: 100px;
 } */
-.ring {
+/* .ring {
     position: sticky;
     top: 0;
+} */
+
+.ring {
+    position: fixed;
+    top: 300px;
+    left: 10px;
 }
 
 .another {
