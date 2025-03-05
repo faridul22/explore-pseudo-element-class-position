@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Z index</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z Index</title>
     <style>
-        .box {
-            position: relative;
-        }
-
-        .boy {
-            z-index: 10;
-        }
-
-        .ring {
-            top: -70px;
-            z-index: 5;
-        }
-
-        .water {
-            top: -150px;
-        }
+      .box {
+        position: relative;
+      }
+      .boy {
+        z-index: 3;
+      }
+      .ring {
+        z-index: 2;
+        top: -70px;
+      }
+      .water {
+        z-index: 1;
+        top: -160px;
+        left: -10px;
+      }
     </style>
-</head>
-
-<body>
-    <h1>Z Index</h1>
-    <div class="swim_container">
+  </head>
+  <body>
+    <header>
+      <h1>Z Index</h1>
+    </header>
+    <main>
+      <div class="swim_container">
         <div class="box boy">
-            <img src="./images/boy.svg" alt="">
+          <img src="./images/boy.svg" alt="" />
         </div>
         <div class="box ring">
-            <img src="./images/ring.svg" alt="">
+          <img src="./images/ring.svg" alt="" />
         </div>
         <div class="box water">
-            <img src="./images/water.svg" alt="">
+          <img src="./images/water.svg" alt="" />
         </div>
-    </div>
-</body>
-
+      </div>
+    </main>
+  </body>
 </html>
